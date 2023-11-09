@@ -14,13 +14,13 @@ To run this app you need Node.js installe on your machine.
   cd ./client
   npm install
 ```
-2. Create .env file and set REACT_APP_POST_URL variable to the valid form post route (e.g. http://localhost:8000/formData)
+2. Create .env file and set REACT_APP_POST_URL variable to the valid form post route (e.g. http://localhost:8000/formData)<br />
 3. Position your self in backend folder and install needed packages
 ```bash
   cd ../server
   npm install
 ```
-4. You coud create .env file and set PORT variable to the port value you want to use but if you skip this step port value will default to 8000 (e.g. http://localhost:8000/formData)
+4. You coud create .env file and set PORT variable to the port value you want to use but if you skip this step port value will default to 8000 (e.g. http://localhost:8000/formData)<br />
 5. Run migrations to generate SQLite self-cointained lightweight database from Prisma schema
 ```bash
 npx prisma migrate dev --name initialize
