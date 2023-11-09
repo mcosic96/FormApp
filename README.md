@@ -1,4 +1,4 @@
-# Form Submiting Application
+# Form Submitting Application
 **Frontend** - React with Redux and Typescript<br />
 **Backend** - Express with Typescript and Prisma<br />
 
