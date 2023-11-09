@@ -1,0 +1,61 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+form {
+  padding: 0px 60px;
+}
+
+h1 {
+  font-size: 40px;
+  color: (77, 1, 77);
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18p;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+label {
+  margin-left: 20px;
+}
+
+#checkbox {
+  float: left;
+  margin-top: 3px;
+}
+
+#agreementText {
+  margin-left: 30px;
+  margin-top: 30px;
+  color: black;
+}
+
+#agreement {
+  margin-top: 30px;
+}
