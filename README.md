@@ -20,8 +20,8 @@ To run this app you need Node.js installed on your machine.
   cd ../server
   npm install
 ```
-4. Create a .env file in the src folder and set the PORT variable to the port value you want to use, but if you skip this step port value will default to 8000 (e.g. http://localhost:8000/formData)
-   Also set DATABASE_URL="file:./dev.db" variable so prisma migration tool can run and generate database dev.db<br />
+4. Create a .env file in the src folder and set the PORT variable to the port value you want to use, but if you skip this step port value will default to 8000 (e.g. http://localhost:8000/formData). 
+   Also set DATABASE_URL="file:./dev.db" variable so prisma migration tool can run and generate database dev.db.<br />
 5. Run migrations to generate SQLite self-contained lightweight database from Prisma schema
 ```bash
 npx prisma migrate dev --name initialize
